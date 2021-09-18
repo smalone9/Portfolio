@@ -5,6 +5,7 @@ import Home from "./components";
 import Navigation from "./components/Navigation";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 // import "./App.css";
 
