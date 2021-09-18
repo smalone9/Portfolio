@@ -13,9 +13,6 @@ import Typography from "@material-ui/core/Typography";
 import project1 from "../images/html-css-javascript-lg.jpg";
 import project2 from "../images/html-css-javascript.jpg";
 import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
-import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -30,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
+    name: "Muse Pal",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
     consequatur magni quod nesciunt necessitatibus molestiae non
     eligendi, magnam est aliquam recusandae? Magnam soluta minus
@@ -38,7 +35,7 @@ const projects = [
     image: project1,
   },
   {
-    name: "Project 2",
+    name: "Pet Sitting",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
@@ -52,30 +49,6 @@ const projects = [
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project3,
-  },
-  {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project4,
-  },
-  {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project5,
-  },
-  {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project6,
   },
 ];
 

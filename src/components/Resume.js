@@ -114,14 +114,14 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+        Experience
       </Typography>
       <Box component="div" className={classes.timeLine}>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          May 2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -132,24 +132,22 @@ const Resume = () => {
             web design
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Began Phase I Coding Bootcamp
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            My former teaching career helped me set goals, analyze documents,
+            and multi-task to learn an entirely new field.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          June 2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -160,24 +158,23 @@ const Resume = () => {
             html & css
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Project I
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Mastering the front end using HTML, CSS, Mobile Responsiveness,
+            Javascript, APIs, GitHub, and worked with a team to deploy a website
+            made from scratch.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2015
+          August 2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -188,24 +185,22 @@ const Resume = () => {
             Fullstack Javascript
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Project II
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Mastered Node, OOP, Express, SQL, ORM, MVC, and worked with a team
+            to create and deploy a full stack website from scratch.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2017
+          September 2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -216,7 +211,7 @@ const Resume = () => {
             Django & React
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Project III
           </Typography>
           <Typography
             variant="subtitle1"
