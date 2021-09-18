@@ -2,6 +2,9 @@
 Challenge 20: React Portfolio
 
 ![Image of Portfolio Home](screenshot1.PNG)
+![Image of Portfolio Resume](screenshot2.PNG)
+![Image of Portfolio Portfolio](screenshot3.PNG)
+![Image of Portfolio Contact](screenshot4.PNG)
 
 ## Purpose
 AS AN employer looking for candidates with experience building single-page applications
