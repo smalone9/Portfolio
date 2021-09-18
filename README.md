@@ -1,7 +1,7 @@
 # react-portfolio
 Challenge 20: React Portfolio
 
-![Image of Portfolio Home](./screenshot.PNG)
+![Image of Portfolio Home](screenshot.PNG)
 
 ## Purpose
 AS AN employer looking for candidates with experience building single-page applications
