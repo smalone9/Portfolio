@@ -10,9 +10,9 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/html-css-javascript-lg.jpg";
-import project2 from "../images/html-css-javascript.jpg";
-import project3 from "../images/javascript-fullstack.jpg";
+import project1 from "../images/muse-pal.jpg";
+import project2 from "../images/pet-sitting.jpg";
+// import project3 from "../images/javascript-fullstack.jpg";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -28,28 +28,22 @@ const useStyles = makeStyles((theme) => ({
 const projects = [
   {
     name: "Muse Pal",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
+    description: `MusePal is a modern music app that lets you search a song and returns the lyrics of the song with an associated GIF. This app provides a platform for music lovers to explore the complexities of their favorite songs. Have you ever had a song stuck in your head but can’t think of the lyrics? Check out MusePal.`,
     image: project1,
   },
   {
     name: "Pet Sitting",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    description: `An amazing website for all of your pets needs!`,
     image: project2,
   },
-  {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project3,
-  },
+  // {
+  //   name: "Upcoming Project 3",
+  //   description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+  //   consequatur magni quod nesciunt necessitatibus molestiae non\
+  //   eligendi, magnam est aliquam recusandae? Magnam soluta minus\
+  //   iste alias sunt veritatis nisi dolores!`,
+  //   image: project3,
+  // },
 ];
 
 const Portfolio = () => {
