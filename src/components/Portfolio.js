@@ -13,30 +13,25 @@ import Typography from "@material-ui/core/Typography";
 import musePal from "../images/muse-pal.PNG";
 import petSitting from "../images/pet-sitting.PNG";
 
-const useStyles = makeStyles((theme) => ({
-  mainContainer: {
-    background: "#233",
-    height: "100%",
-  },
-  cardContainer: {
-    maxWidth: 345,
-    margin: "3rem auto",
-  },
-}));
-
+// project information
 const projects = [
   {
     name: "Muse Pal",
     description: `MusePal is a modern music app that lets you search a song and returns the lyrics of the song with an associated GIF. This app provides a platform for music lovers to explore the complexities of their favorite songs. Have you ever had a song stuck in your head but can’t think of the lyrics? Check out MusePal.`,
     image: musePal,
+    link: "https://mavila6.github.io/muse-pal/",
+    gitLink: "https://github.com/smalone9/muse-pal",
   },
   {
     name: "Pet Sitting",
-    description: `An amazing website for all of your pets needs!`,
+    description: `An amazing website for all of your pets needs! Sign up or Log in to find available pet sitters or available volunteer options, including grooming, walking, and boarding.`,
     image: petSitting,
+    link: "https://rockstars-pet-sitting.herokuapp.com/",
+    gitLink: "https://github.com/smalone9/pet-sitting",
   },
 ];
 
+// portfolio component function
 const Portfolio = () => {
   const classes = useStyles();
   return (
@@ -49,7 +44,7 @@ const Portfolio = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Project 1"
+                  alt="musePal"
                   height="140"
                   image={project.image}
                 />
@@ -63,12 +58,16 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
+                <a href={project.link}>
+                  <Button size="small" color="primary">
+                    Visit Site
+                  </Button>
+                </a>
+                <a href={project.gitLink}>
+                  <Button size="small" color="primary">
+                    GitHub Link
+                  </Button>
+                </a>
               </CardActions>
             </Card>
           </Grid>
@@ -79,3 +78,15 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+// css using material ui styles
+const useStyles = makeStyles((theme) => ({
+  mainContainer: {
+    background: "#078",
+    height: "100%",
+  },
+  cardContainer: {
+    maxWidth: 345,
+    margin: "3rem auto",
+  },
+}));
