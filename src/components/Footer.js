@@ -4,7 +4,6 @@ import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
 import Facebook from "@material-ui/icons/Facebook";
 import LinkedIn from "@material-ui/icons/LinkedIn";
-import Github from "@material-ui/icons/Github";
 
 const useStyles = makeStyles({
   bottomNavContainer: {
@@ -28,7 +27,6 @@ const Footer = () => {
     <BottomNavigation className={classes.bottomNavContainer}>
       <BottomNavigationAction icon={<Facebook />} className={classes.root} />
       <BottomNavigationAction icon={<LinkedIn />} className={classes.root} />
-      <BottomNavigationAction icon={<Github />} className={classes.root} />
     </BottomNavigation>
   );
 };

@@ -1,4 +1,4 @@
-import React from "react/lib/React";
+import React from "react";
 import { Route, Switch } from "react-router-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Home from "./components";
