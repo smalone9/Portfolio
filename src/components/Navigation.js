@@ -22,33 +22,7 @@ import avatar from "../avatar.png";
 
 import Footer from "../components/Footer";
 
-const useStyles = makeStyles((theme) => ({
-  appbar: {
-    background: "#222",
-    margin: 0,
-  },
-  arrow: {
-    color: "tomato",
-  },
-  title: {
-    color: "tan",
-  },
-  menuSliderContainer: {
-    width: 250,
-    background: "#511",
-    height: "100%",
-  },
-  avatar: {
-    display: "block",
-    margin: "0.5rem auto",
-    width: theme.spacing(13),
-    height: theme.spacing(13),
-  },
-  listItem: {
-    color: "tan",
-  },
-}));
-
+// set items for navigation
 const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
   { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
@@ -56,7 +30,8 @@ const menuItems = [
   { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];
 
-const Navbar = () => {
+// Navigation component function
+const NavigationBar = () => {
   const [open, setOpen] = useState(false);
 
   const classes = useStyles();
@@ -94,7 +69,7 @@ const Navbar = () => {
               <ArrowBack className={classes.arrow} />
             </IconButton>
             <Typography variant="h5" className={classes.title}>
-              Portfolio
+              Click this Arrow to View Portfolio Menu Options!
             </Typography>
           </Toolbar>
         </AppBar>
@@ -107,4 +82,32 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavigationBar;
+
+// css styles using material ui styles
+const useStyles = makeStyles((theme) => ({
+  appbar: {
+    background: "#057",
+    margin: 0,
+  },
+  arrow: {
+    color: "lightBlue",
+  },
+  title: {
+    color: "white",
+  },
+  menuSliderContainer: {
+    width: 250,
+    background: "#0144",
+    height: "100%",
+  },
+  avatar: {
+    display: "block",
+    margin: "0.5rem auto",
+    width: theme.spacing(13),
+    height: theme.spacing(13),
+  },
+  listItem: {
+    color: "teal",
+  },
+}));

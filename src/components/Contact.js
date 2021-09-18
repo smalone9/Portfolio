@@ -59,11 +59,11 @@ export default Contact;
 // Css Design implemented with Material UI Styles
 const useStyles = makeStyles((theme) => ({
   contactContainer: {
-    background: "#057",
+    background: "#0144",
     height: "100vh",
   },
   heading: {
-    color: "white",
+    color: "darkBlue",
     textAlign: "center",
     textTransform: "uppercase",
     marginBottom: "1rem",
@@ -79,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     marginTop: "1rem",
-    color: "white",
+    color: "teal",
     borderColor: "teal",
   },
   field: {
@@ -97,7 +97,7 @@ const InputField = withStyles({
     },
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
-        borderColor: "teal",
+        borderColor: "darkBlue",
       },
       "&:hover fieldset": {
         borderColor: "teal",
