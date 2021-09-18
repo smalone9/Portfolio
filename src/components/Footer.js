@@ -5,21 +5,7 @@ import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
 import Facebook from "@material-ui/icons/Facebook";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 
-const useStyles = makeStyles({
-  bottomNavContainer: {
-    background: "#222",
-  },
-  root: {
-    "& .MuiSvgIcon-root": {
-      fill: "tan",
-      "&:hover": {
-        fill: "tomato",
-        fontSize: "1.8rem",
-      },
-    },
-  },
-});
-
+// Footer Component function
 const Footer = () => {
   const classes = useStyles();
 
@@ -31,3 +17,19 @@ const Footer = () => {
   );
 };
 export default Footer;
+
+// css styles using material ui styes
+const useStyles = makeStyles({
+  bottomNavContainer: {
+    background: "#057",
+  },
+  root: {
+    "& .MuiSvgIcon-root": {
+      fill: "white",
+      "&:hover": {
+        fill: "teal",
+        fontSize: "1.8rem",
+      },
+    },
+  },
+});
