@@ -5,6 +5,13 @@ import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
 import Facebook from "@material-ui/icons/Facebook";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 
+const links = [
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/samantha-malone-10713467/",
+  },
+];
+
 // Footer Component function
 const Footer = () => {
   const classes = useStyles();

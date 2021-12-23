@@ -4,9 +4,20 @@ import Box from "@material-ui/core/Box";
 import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
+
 import Button from "@material-ui/core/Button";
 
 import Send from "@material-ui/icons/Send";
+
+// resume information
+const contacts = [
+  {
+    name: "contact information",
+    description: `Email: sammacc99@gmail.com`,
+    linkedIn: "https://www.linkedin.com/in/samantha-malone-10713467/",
+    gitHub: "https://github.com/smalone9",
+  },
+];
 
 // Contact Component Function
 const Contact = () => {
@@ -45,6 +56,7 @@ const Contact = () => {
             fullWidth={true}
             endIcon={<Send />}
             className={classes.button}
+            href={`mailto:sammac99@gmail.com`}
           >
             Contact Me
           </Button>
@@ -63,7 +75,7 @@ const useStyles = makeStyles((theme) => ({
     height: "100vh",
   },
   heading: {
-    color: "darkBlue",
+    color: "black",
     textAlign: "center",
     textTransform: "uppercase",
     marginBottom: "1rem",
@@ -93,18 +105,18 @@ const InputField = withStyles({
       color: "teal",
     },
     "& label": {
-      color: "white",
+      color: "black",
     },
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
-        borderColor: "darkBlue",
+        borderColor: "teal",
       },
       "&:hover fieldset": {
-        borderColor: "teal",
+        borderColor: "lightBlue",
       },
       "&.Mui-focused fieldset": {
         color: "#fff",
-        borderColor: "blue",
+        borderColor: "lightBlue",
       },
     },
   },
