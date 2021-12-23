@@ -18,7 +18,7 @@ const abouts = [
     // image: musePal,
     resume:
       "https://docs.google.com/document/d/1JHZFdpOJL2Ob6_lCGtYMG7i4g7apa13uSAu86a8yGDk/edit?usp=sharing",
-    gitLink: "https://github.com/smalone9/muse-pal",
+    pdf: "https://drive.google.com/file/d/1oqFqfY8PBHws4Z2-lSZVz_RGzJ_skk7b/view?usp=sharing",
   },
 ];
 
@@ -28,7 +28,7 @@ const Resume = () => {
   return (
     <Box component="div" className={classes.mainContainer}>
       <Grid container justify="center">
-        {/* abouts */}
+        {/* about me */}
         {abouts.map((about, i) => (
           <Grid item xs={12} sm={8} md={4} key={i}>
             <Card className={classes.cardContainer}>
@@ -54,9 +54,9 @@ const Resume = () => {
                     View on Google Drive
                   </Button>
                 </a>
-                <a href={about.gitLink}>
+                <a href={about.pdf}>
                   <Button size="small" color="primary">
-                    GitHub Link
+                    View as PDF
                   </Button>
                 </a>
               </CardActions>
