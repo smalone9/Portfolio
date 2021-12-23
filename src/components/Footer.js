@@ -12,7 +12,11 @@ const Footer = () => {
   return (
     <BottomNavigation className={classes.bottomNavContainer}>
       <BottomNavigationAction icon={<Facebook />} className={classes.root} />
-      <BottomNavigationAction icon={<LinkedIn />} className={classes.root} />
+      <BottomNavigationAction
+        icon={<LinkedIn />}
+        // onClick={("https://www.linkedin.com/in/samantha-malone-10713467/") = this.selectBottomNavigationAction(2)}
+        className={classes.root}
+      />
     </BottomNavigation>
   );
 };
