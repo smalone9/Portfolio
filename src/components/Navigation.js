@@ -66,11 +66,10 @@ const NavigationBar = () => {
         <AppBar position="static" className={classes.appbar}>
           <Toolbar>
             <IconButton onClick={() => setOpen(true)}>
-              <ArrowBack className={classes.arrow} />
+              <Typography variant="h5" className={classes.title}>
+                Portfolio Menu Options
+              </Typography>
             </IconButton>
-            <Typography variant="h5" className={classes.title}>
-              Click this Arrow to View Portfolio Menu Options!
-            </Typography>
           </Toolbar>
         </AppBar>
       </Box>
