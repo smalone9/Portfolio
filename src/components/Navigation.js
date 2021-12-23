@@ -12,7 +12,6 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Avatar from "@material-ui/core/Avatar";
 import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
-import ArrowBack from "@material-ui/icons/ArrowBack";
 import AssignmentInd from "@material-ui/icons/AssignmentInd";
 import Home from "@material-ui/icons/Home";
 import Apps from "@material-ui/icons/Apps";
@@ -25,7 +24,7 @@ import Footer from "../components/Footer";
 // set items for navigation
 const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
-  { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
+  { listIcon: <AssignmentInd />, listText: "Timeline", listPath: "/timeline" },
   { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
   { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];

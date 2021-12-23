@@ -3,8 +3,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 
-// resume component function
-const Resume = () => {
+// timeline component function
+const Timeline = () => {
   const classes = useStyles();
   return (
     <Box component="header" className={classes.mainContainer}>
@@ -69,7 +69,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          August 2021
+          Aug. 2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -95,7 +95,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          September 2021
+          Sept. 2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -113,10 +113,36 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Mastered React, GraphQL, MongoDB, Mongoose ODM and worked with a
+            team to create and deploy a full stack Heroku website with JWTs and
+            protected API keys.
+          </Typography>
+        </Box>
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          Dec. 2021
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Career Prep
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            Demo Day
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Continuing to practice Javascript and React while updating career
+            materials, including my resume, portfolio, linkedIN, and more.
+            Preparing for Demo Day by working on multiple apps,
           </Typography>
         </Box>
       </Box>
@@ -124,12 +150,12 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Timeline;
 
 // css using material ui styles
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#078",
+    background: "#0017",
   },
   timeLine: {
     position: "relative",
@@ -182,7 +208,7 @@ const useStyles = makeStyles((theme) => ({
       "&:nth-of-type(2n)": {
         float: "right",
         margin: "1rem",
-        borderColor: "tan",
+        borderColor: "transparent transparent beige beige",
       },
       "&:nth-of-type(2n):before": {
         right: "auto",
@@ -197,7 +223,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
     color: "#fff",
-    background: "darkBlue",
+    background: "lightBlue",
     lineHeight: 1,
     padding: "0.5rem 1rem",
     "&:before": {
@@ -226,7 +252,7 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
   },
   body1: {
-    color: "darkBlue",
+    color: "lightBlue",
   },
   subtitle1: {
     color: "beige",

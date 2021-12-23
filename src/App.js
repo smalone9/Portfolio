@@ -5,7 +5,7 @@ import Home from "./components";
 import Navigation from "./components/Navigation";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
-import Resume from "./components/Resume";
+import Timeline from "./components/Timeline";
 
 // import "./App.css";
 
@@ -18,7 +18,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/timeline" component={Timeline} />
       </Switch>
     </React.Fragment>
   );
