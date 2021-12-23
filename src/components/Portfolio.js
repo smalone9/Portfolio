@@ -12,6 +12,7 @@ import Typography from "@material-ui/core/Typography";
 
 import musePal from "../images/muse-pal.PNG";
 import petSitting from "../images/pet-sitting.PNG";
+import nutriJam from "../images/NutriJamScreenshot.PNG";
 
 // project information
 const projects = [
@@ -28,6 +29,13 @@ const projects = [
     image: petSitting,
     link: "https://rockstars-pet-sitting.herokuapp.com/",
     gitLink: "https://github.com/smalone9/pet-sitting",
+  },
+  {
+    name: "NutriJAM",
+    description: `A web application that allows users to search for recipes within a secure platform.`,
+    image: nutriJam,
+    link: "https://nutri-jam.herokuapp.com/",
+    gitLink: "https://github.com/smalone9/nutri-jam",
   },
 ];
 

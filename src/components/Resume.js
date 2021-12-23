@@ -10,12 +10,14 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
+import sami from "../images/sami.PNG";
+
 // resume information
 const abouts = [
   {
     name: "Samantha Malone",
     description: `Certified Full Stack Web Developer, educated at University of Arizona's Trilogy Coding Bootcamp. Skills in HTML, CSS, Javascript, MySql, Express, Node, OOP, ORM, MVC, and strengths in meeting deadlines, communication, teamwork, and innovation. Successfully designed and refactored multiple websites. Known as an energetic problem solver passionate about developing apps, with a focus on mobile responsiveness. My goal is to ensure users never want to leave the site. Positioned well to provide insight on how users interact with websites and applied front and back-end skills to create a React application that helps users find and save recipes.`,
-    // image: musePal,
+    image: sami,
     resume:
       "https://docs.google.com/document/d/1JHZFdpOJL2Ob6_lCGtYMG7i4g7apa13uSAu86a8yGDk/edit?usp=sharing",
     pdf: "https://drive.google.com/file/d/1oqFqfY8PBHws4Z2-lSZVz_RGzJ_skk7b/view?usp=sharing",
@@ -33,12 +35,12 @@ const Resume = () => {
           <Grid item xs={12} sm={8} md={4} key={i}>
             <Card className={classes.cardContainer}>
               <CardActionArea>
-                {/* <CardMedia
+                <CardMedia
                   component="img"
-                  alt="musePal"
+                  alt="sami"
                   height="140"
                   image={about.image}
-                /> */}
+                />
                 <CardContent>
                   <Typography variant="h5" gutterBottom>
                     {about.name}
