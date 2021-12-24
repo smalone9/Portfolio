@@ -155,7 +155,7 @@ export default Timeline;
 // css using material ui styles
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#0144",
+    background: "#078",
   },
   timeLine: {
     position: "relative",
@@ -222,8 +222,8 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "9.375rem",
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
-    color: "#fff",
-    background: "#078",
+    color: "black",
+    background: "white",
     lineHeight: 1,
     padding: "0.5rem 1rem",
     "&:before": {
@@ -252,7 +252,7 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
   },
   body1: {
-    color: "#078",
+    color: "tan",
   },
   subtitle1: {
     color: "black",
