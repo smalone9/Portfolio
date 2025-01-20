@@ -17,7 +17,7 @@ const contacts = [
   {
     name: "sammac99@gmail.com",
     description: `Contact me through Email, LinkedIn, or Facebook Today!`,
-    linkedIn: "https://www.linkedin.com/in/samantha-malone-10713467/",
+    linkedIn: "https://www.linkedin.com/in/samantha-mackenzie-10713467/",
     gitHub: "https://github.com/smalone9",
     facebook: "https://www.facebook.com/samantha.mackenzie.334/",
   },
