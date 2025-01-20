@@ -21,7 +21,7 @@ const Footer = () => {
       <BottomNavigationAction icon={<Facebook />} className={classes.root} />
       <BottomNavigationAction
         icon={<LinkedIn />}
-        // onClick={("https://www.linkedin.com/in/samantha-malone-10713467/") = this.selectBottomNavigationAction(2)}
+        // onClick={("https://www.linkedin.com/in/samantha-mackenzie-10713467/") = this.selectBottomNavigationAction(2)}
         className={classes.root}
       />
     </BottomNavigation>
