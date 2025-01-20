@@ -14,10 +14,10 @@ const Header = () => {
   return (
     <Box className={classes.typedContainer}>
       <Grid container justify="center">
-        <Avatar className={classes.avatar} src={avatar} alt="Samantha Malone" />
+        <Avatar className={classes.avatar} src={avatar} alt="Samantha MacKenzie" />
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={["Samantha Malone"]} typeSpeed={40} />
+        <Typed strings={["Samantha MacKenzie"]} typeSpeed={40} />
       </Typography>
 
       <Typography className={classes.subtitle} variant="h5">
