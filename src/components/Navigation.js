@@ -39,7 +39,7 @@ const NavigationBar = () => {
 
   const sideList = () => (
     <Box className={classes.menuSliderContainer} component="div">
-      <Avatar className={classes.avatar} src={avatar} alt="Samantha Malone" />
+      <Avatar className={classes.avatar} src={avatar} alt="Samantha MacKenzie" />
       <Divider />
       <List>
         {menuItems.map((item, i) => (
