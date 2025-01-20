@@ -8,7 +8,7 @@ import LinkedIn from "@material-ui/icons/LinkedIn";
 const links = [
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/samantha-malone-10713467/",
+    link: "https://www.linkedin.com/in/samantha-mackenzie-10713467/",
   },
 ];
 
