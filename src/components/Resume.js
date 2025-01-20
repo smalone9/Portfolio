@@ -15,7 +15,7 @@ import sami from "../images/sami.PNG";
 // resume information
 const abouts = [
   {
-    name: "Samantha Malone",
+    name: "Samantha MacKenzie",
     description: `Certified Full Stack Web Developer, educated at University of Arizona's Trilogy Coding Bootcamp. Skills in HTML, CSS, Javascript, MySql, Express, Node, OOP, ORM, MVC, and strengths in meeting deadlines, communication, teamwork, and innovation. Successfully designed and refactored multiple websites. Known as an energetic problem solver passionate about developing apps, with a focus on mobile responsiveness. My goal is to ensure users never want to leave the site. Positioned well to provide insight on how users interact with websites and applied front and back-end skills to create a React application that helps users find and save recipes.`,
     image: sami,
     resume:
